@@ -1,0 +1,72 @@
+
+body {
+    background-color: #BFA893;
+}
+
+.encabezado {
+   
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.banner {
+    
+    align-items: center;
+    width: 400px;
+    max-height: 400px;
+    
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.formu {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    width: 30%;
+}
+
+.resultado {
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 5%;
+    padding-top: 2%;
+}
+
+.error {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #BFA893;
+}
+
+.imagen {
+    padding-bottom: 15px;
+}
+
+.titulo {
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #BFA893;
+    
+}
+.titulo h6 {
+    color: grey;
+    
+}
